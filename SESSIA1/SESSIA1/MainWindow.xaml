@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SESSIA1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="325.828" Width="489.073">
-    <Grid RenderTransformOrigin="0.784,0.533" Margin="0,0,2,0">
+        Title="MainWindow" Height="326.546" Width="490.508" ResizeMode="NoResize">
+    <Grid RenderTransformOrigin="0.784,0.533" Margin="0,0,4,0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
@@ -15,13 +15,17 @@
         <TextBlock HorizontalAlignment="Left" Margin="58,81,0,0" TextWrapping="Wrap" Text="Номер" VerticalAlignment="Top" Width="77" Height="23" FontSize="14"/>
         <TextBlock HorizontalAlignment="Left" Margin="58,109,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" RenderTransformOrigin="0.401,3.242" Height="22" Width="77" FontSize="14"/>
         <TextBlock HorizontalAlignment="Left" Margin="58,136,0,0" TextWrapping="Wrap" Text="Код" VerticalAlignment="Top" RenderTransformOrigin="-1.842,-3.64" Width="77" Height="24" FontSize="14"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="120,81,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="120,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="120,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Image Source="Image\Logo.jpg" Margin="337,0,-22,191" Grid.ColumnSpan="2"/>
-        <Button Content="Отмена" HorizontalAlignment="Left" Margin="104,214,0,0" VerticalAlignment="Top" Width="75" />
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="120,81,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="120,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="120,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="85"/>
+
+        <Button Content="Отмена" HorizontalAlignment="Left" Margin="104,214,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" />
         <Button Content="Вход" HorizontalAlignment="Left" Margin="203,214,0,0" VerticalAlignment="Top" Width="75"/>
-        <Image Source="Image\Obnova.jpg" Margin="252,138,187,128"/>
+        <Image Source="Image\Obnova.jpg" Margin="210,138,229,134" Height="23" Width="23" RenderTransformOrigin="0.169,0.497" HorizontalAlignment="Center"/>
+        <StackPanel>
+            <Image Source="Image\Logo.jpg" Margin="0,0,0,191" Height="83" Width="96" HorizontalAlignment="Right"/>
+
+        </StackPanel>
 
 
 
