@@ -15,6 +15,15 @@
         <TextBlock HorizontalAlignment="Left" Margin="58,81,0,0" TextWrapping="Wrap" Text="Номер" VerticalAlignment="Top" Width="77" Height="23" FontSize="14"/>
         <TextBlock HorizontalAlignment="Left" Margin="58,109,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" RenderTransformOrigin="0.401,3.242" Height="22" Width="77" FontSize="14"/>
         <TextBlock HorizontalAlignment="Left" Margin="58,136,0,0" TextWrapping="Wrap" Text="Код" VerticalAlignment="Top" RenderTransformOrigin="-1.842,-3.64" Width="77" Height="24" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="120,81,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="120,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="120,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Image Source="Image\Logo.jpg" Margin="335,0,-20,191" Grid.ColumnSpan="2"/>
+         
+        <Button Content="Вход" Margin="213,214,191,61"/>
+        <Button Content="Отмена" HorizontalAlignment="Left" Margin="104,214,0,0" VerticalAlignment="Top" Width="75" />
+
+
 
     </Grid>
 </Window>
