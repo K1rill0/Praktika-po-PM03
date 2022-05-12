@@ -18,10 +18,10 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="120,81,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="120,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="120,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Image Source="Image\Logo.jpg" Margin="335,0,-20,191" Grid.ColumnSpan="2"/>
-         
-        <Button Content="Вход" Margin="213,214,191,61"/>
+        <Image Source="Image\Logo.jpg" Margin="337,0,-22,191" Grid.ColumnSpan="2"/>
         <Button Content="Отмена" HorizontalAlignment="Left" Margin="104,214,0,0" VerticalAlignment="Top" Width="75" />
+        <Button Content="Вход" HorizontalAlignment="Left" Margin="203,214,0,0" VerticalAlignment="Top" Width="75"/>
+        <Image Source="Image\Obnova.jpg" Margin="252,138,187,128"/>
 
 
 
