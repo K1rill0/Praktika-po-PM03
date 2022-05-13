@@ -13,9 +13,12 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition Width="500"></ColumnDefinition>
+            <ColumnDefinition Width="478"></ColumnDefinition>
             <ColumnDefinition Width="150"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="222" Text="Абоненты ТНС " FontSize="26"/>
+        <Image Source="Image\Logo.jpg" HorizontalAlignment="Left" Height="93" Margin="0,10,0,0" VerticalAlignment="Top" Width="110"/>
+        <Image Source="Image\Abo.png" HorizontalAlignment="Left" Height="70" Grid.Row="1" VerticalAlignment="Top" Width="110"/>
+        <Image Source="Image\Aktiw.png" HorizontalAlignment="Left" Height="100" Margin="10,165,0,0" Grid.Row="1" VerticalAlignment="Top" Width="56"/>
     </Grid>
 </Window>
