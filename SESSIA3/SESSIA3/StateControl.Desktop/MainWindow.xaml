@@ -1,0 +1,38 @@
+﻿<Window x:Class="StateControl.Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StateControl.Desktop"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50px"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <GroupBox Header="Оборудование магистральных сетей">
+            <ListView x:Name="MagistralEquipment">
+                <ListView.Resources>
+                    <Style TargetType="{x:Type ListViewItem}">
+                    </Style>
+                </ListView.Resources>
+            </ListView>
+        </GroupBox>
+        <GroupBox Grid.Column="1" Header="Оборудование сетей доступа">
+            <ListView x:Name="AccessEquipment">
+            </ListView>
+        </GroupBox>
+        <GroupBox Grid.Column="2" Header="Оборудование абонента">
+            <ListView x:Name="ClientEquipment">
+            </ListView>
+        </GroupBox>
+
+        <Button Grid.Row="1" Grid.ColumnSpan="3" Height="25px" Click="Button_Click">Проверить всё оборудование</Button>
+    </Grid>
+</Window>
